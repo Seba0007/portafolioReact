@@ -1,6 +1,6 @@
 import React from 'react';
 import countries from "../assets/images/countries.PNG"
-import cocacola from "../assets/images/cocacola.jpg"
+import guessWords from "../assets/images/banderas.jpg"
 import energy from "../assets/images/energy.png"
 import sprite from "../assets/images/sprite.jpg"
 import { Container, Row} from 'react-bootstrap';
@@ -15,17 +15,17 @@ class Carousel extends React.Component{
                 {
                     id: 0,
                     name: "countries",
-                    description: "Find info about countries",
+                    description: "Encontrar info de distintos países",
                     image: countries,
                     link: "https://mguaraz120.github.io/Countries-Info-API/",
                     selected: false,
                 },
                 {
                     id: 1,
-                    name: "cocacola",
-                    description: "cocacola",
-                    image: cocacola,
-                    link: "https://google.com",
+                    name: "guessWords",
+                    description: "Adivinar paises eligiendo letra por letra",
+                    image: guessWords,
+                    link: "https://seba0007.github.io/wordguess/",
                     selected: false,
                 },
                 {
